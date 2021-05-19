@@ -1,0 +1,221 @@
+html,
+body{
+background-color: #C4FAF8;
+}
+
+.menu{
+    font-size: 55px;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: -8%;
+}
+
+#body{
+    margin-left: 30%;
+    margin-top: 10%;
+    border: 5px solid black;
+    width: 40%;
+    height: 50%;
+}
+
+
+.elegir{
+    text-align: center;
+    color: black;
+}
+
+#lastElegir{
+    margin-bottom: 3%;
+}
+
+
+.button {
+
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button:hover{
+    background-color: #85E3FF; 
+    color: black; 
+    border: 2px solid #6EB5FF;
+}
+
+#estadisticas{
+    width: 30%;
+    height: 40%;
+    border: 5px solid;
+    color: black;
+    margin-top: 12%;
+    margin-left: 22%;
+    padding-left: 5%;
+}
+
+#estadisticas h1{
+    font-size: 38px;
+    }
+
+
+#estadisticas p{
+font-size: 20px;
+}
+
+
+#estadisticas input{
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    margin-top: 1px;
+}
+
+.bodyRango{
+height: 100%;
+}
+
+.rango{
+    text-align: center;
+    margin-top: 12%;
+    margin-left: 30%;
+    border: 5px solid;
+    color: black;
+    width: 40%;
+
+}
+
+.rango h1:first-child{
+    margin-top: 5%;
+}
+
+
+
+.rango input {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+
+.enlace:link, .enlace:visited {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #6EB5FF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: green;
+    color: white;
+}
+
+.ejercicio {
+    border: 5px solid;
+    text-align: center;
+    margin-top: 12%;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#volver{
+    width: 35%;
+}
+
+.ejercicio p{
+    font-size: 20px;
+}
+
+.respuesta{
+    font-weight: bold;
+}
+
+.input[type=number] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #6EB5FF;
+    border-radius: 4px;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.input[type=number] {
+  -moz-appearance: textfield;
+}
+table{
+width: 100%;
+}
+
+.btnVolver{
+   margin-left: 28vw; 
+}
+
+#h1Tabla{
+    margin-left: 43.6vw;
+    font-size: 38px;
+    margin-bottom: 5vh;
+}
+
+#divOverflow{
+    overflow: auto;
+    height: 49.5vh;
+    width: 100%;
+    margin-bottom: 3vh;
+}
+
+
+.fila:nth-child(odd) {
+    background-color: darkslategray;
+}
+
+.fila:hover {
+    background-color: #369681;
+    color: white;
+}
+
+.col {
+    padding: 20px;
+    font-size: 16px;
+}
+#valorKey {
+    font-weight: bolder;
+    font-size: 16px;
+    height: 30%;
+    background-color: #369681;
+    border-bottom: solid 5px #0F362D;
+}
+
+#valorKey td {
+    text-align: center;
+    font-size: 18px;
+}
+#creditos{
+    margin-left: 47%;
+}
+
+#campoFiltros{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28.5vw;
+    
+}
+
+#form_id{
+ margin-left: 40vw;   
+    
+}
